@@ -1,0 +1,137 @@
+body {
+    background-image: url('../images/seigaiha.png');
+    font-family: 'Questrial', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 21px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    padding-right: 10px;
+}
+a:last-child {
+    padding-right: 0px;
+}
+
+/* HEADER */
+header {
+    border-bottom: 2px solid #ddd;
+}
+
+header.container {
+    background: #c3f2e5;
+    margin-top: 0px;
+    padding: 0;
+    border-top: none;
+    border-bottom: 2px solid #ddd;
+
+}
+.nav {
+    text-align: center;
+}
+.active {
+    color: #000;
+}
+
+
+/*CONTAINER*/
+.container {
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #eee;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container h2 {
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+hr {
+    border: 2px dotted #ddd;
+    margin: 20px 0px 20px 0px;
+}
+.picture {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+/*FOOTER*/
+footer {
+    background: #c3f2e5;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 5px solid #bbb;
+    margin-bottom: 0px;
+}
+
+footer span {
+    position: relative;
+    top: 40px;
+}
+
+/*****PORTFOLIO PAGE*****/
+.box-set {
+    margin-bottom: 40px;
+}
+.box-set .col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.box-set:last-child {
+    margin-bottom: 0px;
+}
+.box {
+    background: #eee;
+    height: 200px;
+}
+.box:last-child {
+    margin-right: 0px;
+}
+.project-title {
+    background: #c3f2e5;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/*****CONTACT PAGE*****/
+/* form {
+    color: #888;
+}
+.form-label {
+    margin-bottom: 5px;
+}
+input {
+    color: #888;
+    width: 885px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+textarea {
+    width: 885px;
+    height: 300px;
+    padding: 5px;
+    border-color: #ddd;
+} */
